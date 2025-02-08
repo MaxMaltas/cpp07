@@ -2,7 +2,7 @@ SRC_DIR = src/
 OBJ_DIR = obj/
 INC_DIR = inc/
 
-NAME = whatever
+NAME = array
 
 CXX = c++
 
@@ -16,7 +16,7 @@ SRCS =		src/main.cpp \
 OBJS = $(SRCS:$(SRC_DIR)%.cpp=$(OBJ_DIR)%.o)
 DEPS = $(OBJS:.o=.d)
 
-HEADERS = 	inc/Whatever.hpp \
+HEADERS = 	inc/Array.hpp \
 
 
 all: $(OBJ_DIR) $(NAME)
